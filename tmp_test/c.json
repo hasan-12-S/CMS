@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "code": "C1",
+      "title": "Course1",
+      "id": 1
+    },
+    {
+      "code": "C2",
+      "title": "Course2",
+      "id": 2
+    }
+  ]
+}

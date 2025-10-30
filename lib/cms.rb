@@ -1,0 +1,31 @@
+# frozen_string_literal: true
+
+require_relative "cms/utils/logger"
+require_relative "cms/utils/table"
+require_relative "cms/utils/csv_utils"
+require_relative "cms/storage/json_store"
+require_relative "cms/services/id_generator"
+require_relative "cms/validators/validation_error"
+require_relative "cms/validators/student_validator"
+require_relative "cms/validators/course_validator"
+require_relative "cms/models/student"
+require_relative "cms/models/course"
+require_relative "cms/models/enrollment"
+require_relative "cms/repositories/base_repo"
+require_relative "cms/repositories/student_repo"
+require_relative "cms/repositories/course_repo"
+require_relative "cms/repositories/enrollment_repo"
+require_relative "cms/services/student_service"
+require_relative "cms/services/course_service"
+require_relative "cms/services/enrollment_service"
+require_relative "cms/services/report_service"
+require_relative "cms/services/backup_service"
+require_relative "cms/config"
+require_relative "cms/doctor"
+require_relative "cms/menu"
+require_relative "cms/prompt"
+require_relative "cms/cli"
+
+module Cms
+  VERSION = "0.2.0"
+end

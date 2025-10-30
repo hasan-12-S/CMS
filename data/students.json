@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Hanzala",
+      "email": "rhanzala98@gmail.com",
+      "active": true,
+      "id": 1
+    },
+    {
+      "name": "Hasan",
+      "email": "hasan.s2@turing.com",
+      "active": true,
+      "id": 2
+    },
+    {
+      "name": "Shimroz",
+      "email": "shimroz.s@turing.com",
+      "active": true,
+      "id": 3
+    }
+  ]
+}

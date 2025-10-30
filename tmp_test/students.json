@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "A",
+      "email": "a@x",
+      "active": true,
+      "id": 1
+    },
+    {
+      "name": "B",
+      "email": "b@x",
+      "active": false,
+      "id": 2
+    }
+  ]
+}
