@@ -2,9 +2,13 @@
   "items": [
     {
       "code": "CS101",
-      "title": "Intro",
-      "credits": 3,
+      "title": "Intro CS",
       "id": 1
+    },
+    {
+      "code": "EE101",
+      "title": "Circuits",
+      "id": 2
     }
   ]
 }

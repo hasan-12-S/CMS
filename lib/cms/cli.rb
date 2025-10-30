@@ -51,6 +51,18 @@ module Cms
       rec = @enrolls.enroll(student_id: sid, course_id: cid); puts "Enrolled ##{rec[:id]}"
     rescue ValidationError => e; puts "Error: #{e.message}"
     end
+    def department_reports
+      dept_store = Cms::JsonStore.new(File.expand_path("../../data/departments.json", __dir__))
+      dept_repo = Cms::DepartmentRepo.new(dept_store)
+      svc = Cms::DepartmentService.new(dept_repo, student_repo: @student_repo, course_repo: @course_repo)
+      t = Cms::Table.new(%w[Department Head Courses Students])
+      svc.list.each do |d|
+        s = svc.summary(d[:id])
+        t.add_row([s[:name], s[:head], s[:course_count], s[:student_count]])
+      end
+      puts t.render
+    end
+
     def reports_menu
       puts "Reports:"
       puts "1) Course roster"; puts "2) Student schedule"
