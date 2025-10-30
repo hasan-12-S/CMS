@@ -3,7 +3,6 @@
 A console CMS for **students**, **courses**, and **enrollments** with JSON storage.
 - Pure Ruby (no Rails)
 - RSpec tests with **P2P** and **F2P** tags
-- 20‑PR roadmap for private-repo workflows
 
 ## Quick Start
 ```bash
