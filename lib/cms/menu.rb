@@ -10,7 +10,9 @@ module Cms
       puts "4) Add course"
       puts "5) Enroll student in course"
       puts "6) Reports"
-      puts "7) Exit"
+      puts "7) Department Summary Reports"
+      puts "8) Exit"
+
     end
     def handle(choice)
       case choice
@@ -20,7 +22,9 @@ module Cms
       when "4" then @cli.add_course
       when "5" then @cli.enroll_student
       when "6" then @cli.reports_menu
-      when "7" then :exit
+      when "7" then @cli.department_reports
+      when "8" then :exit
+
       else puts "Unknown option"
       end
     end

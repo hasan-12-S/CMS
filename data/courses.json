@@ -1,1 +1,16 @@
-{ "items": [] }
+{
+  "items": [
+    {
+      "code": "CP1",
+      "title": "Programing fundamentals",
+      "credits": 3,
+      "id": 1
+    },
+    {
+      "code": "AB1",
+      "title": "Maths",
+      "credits": 3,
+      "id": 1
+    }
+  ]
+}

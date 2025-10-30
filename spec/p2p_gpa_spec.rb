@@ -7,7 +7,7 @@ RSpec.describe "ReportService#gpa", :p2p do
   let(:svc)   { Cms::ReportService.new(student_repo: srepo, course_repo: crepo, enrollment_repo: erepo) }
 
   before do
-    srepo.create(name: "Hanzala", email: "h@x", active: true)
+    srepo.create(name: "Hasan", email: "h@x", active: true)
     crepo.create(code: "MATH", title: "Math")
     crepo.create(code: "PHY", title: "Physics")
     erepo.create(student_id: 1, course_id: 1, grade: "A")

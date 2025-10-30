@@ -25,6 +25,10 @@ require_relative "cms/doctor"
 require_relative "cms/menu"
 require_relative "cms/prompt"
 require_relative "cms/cli"
+require_relative "cms/models/department"
+require_relative "cms/repositories/department_repo"
+require_relative "cms/services/department_service"
+
 
 module Cms
   VERSION = "0.2.0"
