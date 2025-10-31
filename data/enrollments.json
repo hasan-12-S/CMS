@@ -1,1 +1,18 @@
-{ "items": [] }
+{
+  "items": [
+    {
+      "student_id": 1,
+      "course_id": 1,
+      "status": "pending",
+      "grade": null,
+      "id": 1
+    },
+    {
+      "student_id": 2,
+      "course_id": 2,
+      "status": "pending",
+      "grade": null,
+      "id": 1
+    }
+  ]
+}

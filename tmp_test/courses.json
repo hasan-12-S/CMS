@@ -3,12 +3,8 @@
     {
       "code": "CS101",
       "title": "Intro CS",
+      "instructor": "Dr. A",
       "id": 1
-    },
-    {
-      "code": "EE101",
-      "title": "Circuits",
-      "id": 2
     }
   ]
 }
